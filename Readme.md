@@ -69,5 +69,28 @@ This repository contains screenshots of Docker commands and examples used in ITI
 ![Access Flask from Browser](imgs/access_flask_from_brows.png)
 
 ---
+## Volumes
+**create named volumes:**  
+![named vol](imgs/create_named_volume.png)
+**create bind volumes:**  
+![bind vol](imgs/create_bind_volumes.png)
+
+**attach 2 named volumes to container, then change index.html inside container:**
+![attach named vol](imgs/run_cont_with_named_vol.png)
+
+**attach to bind volumes to container, then change index.html inside container:**  
+![attach bind vol](imgs/run_container_with_bind_vol.png)
+
+
+**remove old container, then attach named volumes to new container:**  
+![attach bind vol](imgs/attach_named_vol_to_new_container.png)
+
+**remove old container, then attach bind volumes to new container:**  
+![attach bind vol](imgs/attach_bind_vol_to_new_cont.png)
+
+**access new contaienr with browser:**  
+![attach bind vol](imgs/access_from_browser.png)
+
+---
 
 **Note:** All images are located in the `imgs/` folder. Open this `Readme.md` in GitHub, VS Code, or any markdown viewer to see the screenshots directly.
