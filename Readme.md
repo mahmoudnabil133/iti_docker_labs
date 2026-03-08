@@ -92,5 +92,19 @@ This repository contains screenshots of Docker commands and examples used in ITI
 ![attach bind vol](imgs/access_from_browser.png)
 
 ---
+## Network
 
+**Create 2 networks:**  
+![Run MySQL Container](imgs/create-2-network.png)
+
+**Run nginx  container in network1:**  
+![Run MySQL Container](imgs/run-nginx-container-in-network-1.png)
+
+**Run a flask container in network1:**  
+![Run MySQL Container](imgs/run-flask-container-in-network-1.png)
+
+**execute nginx contianer with ```curl flask_container:port```:**  
+![Run MySQL Container](imgs/exec-nginx-curl-flask-app.png)
+
+---
 **Note:** All images are located in the `imgs/` folder. Open this `Readme.md` in GitHub, VS Code, or any markdown viewer to see the screenshots directly.
